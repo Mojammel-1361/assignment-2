@@ -39,7 +39,7 @@ title part start
     width: 150px;
     font-weight: 600;
     color: rgb(227, 223, 187);
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: #DD0000 ;
     opacity: o.7;
 }
@@ -307,9 +307,13 @@ footer > h1{
         margin: 0;
     }
     .contact{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: space-between;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info p {
+        padding: 7px 9px;
+        font-size: 8px;
     }
     .media a{
         color: aliceblue;
