@@ -16,6 +16,7 @@ title part start
     gap: 50px;
     border-radius: 50px;
     height: 450px;
+    
 }
 
 .titel-text > h1{
@@ -43,12 +44,6 @@ title part start
     background-color: #DD0000 ;
     opacity: o.7;
 }
-
-.button a{
-    text-decoration: none;
-    color: white;
-    
-}   
 
 .button:hover{
     background-color: #00dd04 ;
@@ -82,7 +77,9 @@ nav a{
 nav li{
     list-style-type:none;
 }
-
+.nav ul{   
+    padding: 0;
+}
 .nav-button{
     background-color: #DD0000;
     height: 60px;
@@ -97,9 +94,7 @@ nav li{
     padding: 5px 30px;
 
 }
-.nav ul{   
-    padding: 0;
-}
+
 .nav-button:hover{
     background-color:#00dd04;
     transition: 1s;
@@ -114,21 +109,33 @@ nav li{
     right: 350px;
     margin-left: 70px;
 }
-.images img{
-    width: 270px;
+.images-part{
+    display: flex;
+}
+.vs{
+    align-self: center;
+}
+.img{
+    display: inline-block;
+    padding-top: 20px;
+    padding: 2px;
+}
+.time h3, p{
+    text-align: center;
+    color: rgb(153, 153, 153);
+}
+
+.img img{
+    width: 100px;
 }
 .item{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    padding: 7px 10px;
-    height: 340px;
-    width: 270px;
+    padding: 10px 10px;
+    height: 220px;
+    width: 240px;
     border-radius: 14px;
 }
 
-.view-btn{
-    text-align: center;
-    
-}
 
 /* blog style end  */
 
@@ -164,7 +171,9 @@ footer > h1{
 
 /* footer end  */
 
+
 /* mobile  */
+
 
 @media only screen and (max-width: 580px) {
     .view-btn{
@@ -206,6 +215,8 @@ footer > h1{
     }
 
     /* titel-end  */
+
+
     .nav{
         margin-left: 60px;
     }
@@ -234,8 +245,7 @@ footer > h1{
 
   /* mobile end  */
 
-
-  /* tab start  */
+  /* tab  */
 
   @media only screen and (min-width:581px)and (max-width:971px) {
     .view-btn{
@@ -320,11 +330,3 @@ footer > h1{
   }
 
   /* tab end  */
-
-  /* all  */
-  @media only screen and (min-width:972px) {
-    .view-btn{
-        display:none ;
-    }
-
-}
