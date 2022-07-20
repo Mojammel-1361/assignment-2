@@ -17,6 +17,11 @@ title part start
     border-radius: 50px;
     height: 450px;
 }
+.titel-section:hover{
+        transition: 10s;
+        background-color:#350218 ;
+        
+}
 
 .titel-text > h1{
     padding: auto;
@@ -33,6 +38,8 @@ title part start
 .titel-images{
     padding-top: 105px;
 }
+
+
 .button{
     font-size: 20px;
     height: 50px;
